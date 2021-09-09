@@ -39,7 +39,7 @@ h1 {
   flex: 2;
   height: 100%;
 }
-#image > #valueboundimg {
+#image #valueboundimg {
   height: 100%;
   width: 100%;
 }
@@ -102,7 +102,7 @@ a:hover {
 }
 
 @media (max-width: 525px) and (min-width: 450px) {
-  #image > #valueboundimg {
+  #image #valueboundimg {
     height: 100%;
     width: 90%;
   }
