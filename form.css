@@ -84,7 +84,8 @@ a:hover {
   }
   #image {
     flex: 1;
-    height: 100%;
+    height: 90%;
+    width: 100%;
     order: 1;
   }
   #mainForm {
@@ -97,5 +98,16 @@ a:hover {
   }
   #mainForm:hover {
     box-shadow: none;
+  }
+}
+
+@media (max-width: 525px) and (min-width: 450px) {
+  #image > #valueboundimg {
+    height: 100%;
+    width: 90%;
+  }
+  #mainForm {
+    padding: 0;
+    left: 45%;
   }
 }
